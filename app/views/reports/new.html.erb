@@ -1,0 +1,27 @@
+<h1>New report</h1>
+
+<% form_for(@report) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :month %><br />
+    <%= f.text_field :month %>
+  </p>
+  <p>
+    <%= f.label :profit %><br />
+    <%= f.text_field :profit %>
+  </p>
+  <p>
+    <%= f.label :expenses %><br />
+    <%= f.text_field :expenses %>
+  </p>
+  <p>
+    <%= f.label :amount %><br />
+    <%= f.text_field :amount %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', reports_path %>

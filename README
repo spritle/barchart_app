@@ -1,0 +1,15 @@
+Running the App:
+
+1) Configure the database.yml file to your database.
+2) Run rake db:create | rake db:migrate
+3) Add some sample data to the table and view the application.
+
+The flex source is available inside bin folder as barchar_app.fxp.
+
+For more information please visit http://www.spritle.com/blogs/?p=762
+
+Contact me if you have any queries = vkrishnas@spritle.com
+
+#TODO
+
+Need to write test cases.
